@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+body{
+    background-color: rgb(5, 2, 33);
+    color: white;
+    }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+    } 
+.logo{
+    display: flex;
+    margin-right: 170px;
+}
+.logoP{
+    height: 70px;
+    width: 70px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    }
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    }
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    }
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+    }
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+    }
+.purple{
+    color: rgb(170, 107, 228);
+    }
+#element{
+    color: rgb(170, 107, 228);
+    }
+.logo .left{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+    }
+.firstSection > div{
+    width: 30%;
+    }
+
+.leftSection{
+    font-size: 2rem;
+    }
+.leftSection .btn{
+    position: relative;
+    padding: 2px;
+    background: #1e2167;
+    color: white;
+    border: 1.3px solid white;
+    border-radius: 2.5px;
+    font-size: 13px;
+    cursor: pointer;
+    }
+.leftSection .button{
+    padding: 50px 0;
+}
+.rightSection{
+    width: 34px;
+    }
+.rightSection img{
+    width: 80%;
+    margin: 50px 0;
+    }
+
+.text-gray{
+    color: gray;
+    }
+
+.secondSection h1{
+    font-size: 1.9rem;
+    }
+ 
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    }
+.secondSection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vert{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 130px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vert-title{
+    left: -1px;
+    top: 75px;
+    width: 150px;
+    position: relative;
+}
+.pro1-det{
+    position: relative;
+    top: 90px;
+    width: 100px;
+    font-size: 12px;
+    color: white;
+}
+.org{
+    position: relative;
+    top: 80px;
+    font-size: 14px;
+}
+.str{
+    color: rgb(0, 81, 255);
+}
+.str1{
+    color: rgb(234, 0, 255);
+}
+.footer{
+    height: 160px;
+    background-color: rgb(18, 18, 62);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact{
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+.myPhoto{
+    height: 150px;
+    width: 120px;
+    margin-top: -120px;
+    margin-left: 300px;
+    border: 1px solid white;
+    border-style: double;
+}
+.contact p{
+    margin-top: 5px;
+}
+.container{
+    width: 100%;
+    background-color: #ddd;
+    width: 600px;
+    height: 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.skills{
+    text-align: right;
+    color: white;
+    border-radius: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.skills-name{
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.java{
+    width: 65%;
+    background-color: orange;
+    height: 20px;
+}
+.SQL{
+    width: 75%;
+    background-color: red;
+    height: 20px;
+}
+.oops{
+    width: 70%;
+    background-color: rgb(20, 175, 236);
+    height: 20px;
+}
+.html{
+    width: 80%;
+    background-color: rgb(14, 160, 14);
+    height: 20px;
+}
+.css{
+    width: 75%;
+    background-color: rgb(209, 14, 141);
+    height: 20px;
+}
+
+.social{
+    font-size: 1.5rem;
+    display: inline;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+.social a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+.footer .right{
+    font-size: 1rem;
+}
